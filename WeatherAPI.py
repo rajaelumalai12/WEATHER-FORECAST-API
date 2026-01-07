@@ -21,6 +21,3 @@ if st.button("Get Weather"):
         st.success("Weather data fetched successfully!")
     else:
         st.error("City not found or API error. Please try again.")
-
-
-#https://api.openweathermap.org/data/2.5/weather?q=chennai&appid=76abbf79faa2491a0e071368e9c07996&units=metric
